@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+body {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+
+#hireMe {
+  background-image: url('./components/pic/Rectangle\ 114.png');
+  background-size: cover;
+  padding: 10px 10px 10px 20px;
+  color: aliceblue;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navCat {
+  color: #424242;
+  font-size: 14px;
+}
+
+.navCat:hover {
+  color: #5A47AB;
+  ;
+}
+
+#nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#blogPost {
+  display: flex;
+  align-items: center;
+  margin-bottom: 300px;
+  gap: 160px;
+}
+
+#blogPostHeader {
+  color: #D05270;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+#blogPostHeader1 {
+  color: #424242;
+  font-size: 52px;
+  font-weight: 500;
+}
+
+#blogPostText {
+  color: #424242;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#socialButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#twitter {
   color: white;
+  background-color: #47ACDF;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#linkedin {
+  color: white;
+  background-color: #1275B1;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#medium {
+  color: white;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.newsCat {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.newsCat:hover {
+  font-size: 24px;
+  color: #D05270;
+  border-bottom: 1px solid #D05270;
+}
+
+#nav1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-bottom: 110px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10%;
+  row-gap: 75px;
+}
+
+.card {
+  width: 45%;
+}
+
+.cardHeader {
+  color: #D05270;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardText {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.cardBtn {
+  color: #D05270;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
 }
